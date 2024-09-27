@@ -1,0 +1,144 @@
+@media (max-width:768px) {
+    .main_container {
+        width: 100%;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        width: 185px;
+        height: 40px;
+    }
+
+    .footer-column ul li a {
+        color: #b3b3b3;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .right_side {
+        height: fit-content;
+        width: 360px;
+        margin: 0 auto;
+        background-color: #1b1a1a;
+        border-radius: 25px;
+    }
+
+    .info_user {
+        img {
+            width: 200px;
+            height: 105px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            object-fit: cover;
+        }
+    }
+
+    .name_user {
+        font-size: 58px;
+        color: white;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    .main_container {
+        width: 100%;
+
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        gap: 0px;
+        height: 100vh;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        width: 150px;
+        margin-right: 10px;
+        height: 40px;
+    }
+
+    .search-input {
+        flex: 1;
+        border: none;
+        background: none;
+        outline: none;
+        color: #ddd;
+        font-size: 13px;
+    }
+
+    .premium {
+        padding: 4px;
+        border-radius: 15px;
+        border: none;
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .install {
+        background-color: #000000;
+        color: white;
+        padding: 7px;
+        border-radius: 15px;
+        border: none;
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .user {
+        padding: 10px;
+        border-radius: 100%;
+        background-color: white;
+    }
+
+    .sidebar {
+        display: none;
+        width: 240px;
+        height: 770px;
+        background-color: #1b1a1a;
+        padding: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+
+    .left_exit {
+        margin-right: 5px;
+        width: 60px;
+        height: 40px;
+    }
+
+    .exit {
+        width: 50px;
+        height: 20px;
+        background-color: #181818;
+        border: none;
+        cursor: pointer;
+    }
+
+    .info_user {
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        color: white;
+        background-color: #585858;
+        height: 100%;
+        padding: 50px;
+        border-radius: 0px;
+    }
+
+    .footer-column h3 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}

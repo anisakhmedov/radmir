@@ -1,0 +1,356 @@
+@media (max-width: 1200px) {
+    .main_container {
+        width: 100%;
+    }
+
+    .right_side {
+        height: fit-content;
+        width: 66%;
+        margin: 0 auto;
+        background-color: #1b1a1a;
+        border-radius: 25px;
+    }
+
+    .name {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .atists {
+        display: flex;
+        margin-left: 20px;
+        gap: 10px;
+        height: 250px;
+    }
+
+    .item {
+        img {
+            width: 350px;
+            height: auto;
+        }
+    }
+
+    .item {
+        margin-left: 20px;
+        width: 310px;
+        height: 450px;
+    }
+
+    .music_albums {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        gap: 0px;
+        background-color: #1b1a1a;
+    }
+
+    footer {
+        margin-top: 0px;
+        background-color: #1b1a1a;
+        padding: 20px 5px;
+        color: #b3b3b3;
+    }
+}
+
+
+@media (max-width:992px) {
+    .main_container {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 260px;
+        height: 1480px;
+        background-color: #1b1a1a;
+        padding: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+
+
+    .install {
+        background-color: #000000;
+        color: white;
+        padding: 7px;
+        border-radius: 15px;
+        border: none;
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .item {
+
+        margin-left: 20px;
+        width: 100px;
+        height: 350px;
+
+        img {
+            width: 231px;
+            height: auto;
+        }
+    }
+
+
+    
+
+    .name {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        white-space: nowrap;
+
+        text-overflow: ellipsis;
+    }
+
+    footer {
+
+        background-color: #1b1a1a;
+        padding: 20px 5px;
+        color: #b3b3b3;
+    }
+}
+
+
+@media (max-width:768px) {
+    .main_container {
+        width: 100%;
+    }
+
+    .header {
+        padding: 10px;
+        width: 92%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        width: 195px;
+        height: 40px;
+    }
+
+    .right_side {
+        height: fit-content;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #1b1a1a;
+        border-radius: 25px;
+    }
+    .premium {
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .install {
+        background-color: #000000;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .right_side {
+        height: fit-content;
+        width: 66%;
+        margin: 0 auto;
+        background-color: #1b1a1a;
+        border-radius: 25px;
+    }
+
+    .sidebar {
+        width: 233px;
+        height: 1480px;
+        background-color: #1b1a1a;
+        padding: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+
+    .item {
+        img {
+            width: 190px;
+            height: auto;
+        }
+    }
+
+    .item {
+        margin-left: 20px;
+        width: 0px;
+        height: 250px;
+    }
+
+    .name {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        white-space: nowrap;
+
+        text-overflow: ellipsis;
+    }
+
+    .music_albums {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+
+        background-color: #1b1a1a;
+    }
+
+
+    .item {
+        margin-left: 20px;
+        width: 0px;
+        height: 200px;
+    }
+
+    footer {
+        margin-top: 50px;
+        background-color: #1b1a1a;
+        padding: 20px 5px;
+        color: #b3b3b3;
+    }
+
+    .footer-column h3 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footer-column ul li a {
+        color: #b3b3b3;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width:576px) {
+    .main_container {
+        width: 100%;
+    }
+
+
+    .header {
+        padding: 7px;
+        width:98%;
+        margin: 0 ; 
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sidebar {
+        display: none;
+        width: 233px;
+        height: 1480px;
+        background-color: #1b1a1a;
+        padding: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+
+    
+
+    .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        margin-right: 21px;
+        width: 130px;
+        height: 40px;
+    }
+
+    .search-input {
+        flex: 1;
+        border: none;
+        background: none;
+        outline: none;
+        color: #ddd;
+        font-size: 11px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        gap: 0;
+        height: 100vh;
+    }
+
+    .right_side {
+        height: fit-content;
+        width: 375px;
+        margin: 0 auto;
+        background-color: #1b1a1a;
+        border-radius: 25px;
+    }
+
+    .info_artist {
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        color: white;
+        background-color: #585858;
+        height: 100%;
+        padding: 31px;
+    }
+
+    .name {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .track-item {
+        width: 316px;
+        cursor: pointer;
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 16px 0px;
+        border-bottom: 1px solid #333;
+    }
+
+    .track-name {
+        font-size: 10px;
+        color: white;
+        margin-right: auto;
+    }
+
+    .item {
+        img {
+            width: 127px;
+            height: auto;
+        }
+
+        .name {
+            font-size: 10px;
+        }
+    }
+   
+    footer {
+        margin-top: 50px;
+        background-color: #1b1a1a;
+        padding: 10px 33px;
+        color: #b3b3b3;
+    }
+
+    .footer-column ul li a {
+        color: #b3b3b3;
+        text-decoration: none;
+        font-size: 7px;
+    }
+}
