@@ -29,6 +29,8 @@ if (!token && hash) {
 
 PUBLIC_URL.getData(`/browse/new-releases`)
     .then(res => {
+        console.log(res);
+        
         let albums = res.albums.items
         let sortedAlbums = []
 
